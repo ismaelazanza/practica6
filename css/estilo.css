@@ -1,0 +1,185 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    background-color: #fff;
+}
+
+.contenedor{
+    max-width: 90rem;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 2.3rem;
+}
+
+h3{
+    font-size: 2.3rem;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20rem;
+}
+
+.caja1{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 1rem 0 0 1rem;
+}
+
+.caja2{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.caja3{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 1rem 1rem 0;
+}
+
+.caja1 img{
+    padding: 3rem 0 1rem 3.5rem;
+}
+
+.caja1 h2{
+    font-family: 'Big Shoulders Display';
+    color: hsla(0, 0%, 100%, 0.75);
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    padding: .4rem 3.5rem;
+}
+
+.caja1 p{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 1rem 3.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.caja1 a{
+    background-color: #fff;
+    display: inline-block;
+    color: hsl(31, 77%, 52%);
+    margin-left: 3.5rem;
+    margin-bottom: 5rem;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    border: 1px solid transparent
+}
+
+.caja1 a:hover{
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+    border: .1rem solid #fff;
+}
+
+.caja2 img{
+    padding: 3rem 0 1rem 3.5rem;
+}
+
+.caja2 h2{
+    font-family: 'Big Shoulders Display';
+    color: hsla(0, 0%, 100%, 0.75);
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    padding: .4rem 3.5rem;
+}
+
+.caja2 p{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 1rem 3.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.caja2 a{
+    background-color: #fff;
+    display: inline-block;
+    color: hsl(184, 100%, 22%);
+    margin-left: 3.5rem;
+    margin-bottom: 5rem;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+}
+
+.caja2 a:hover{
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+    border: .1rem solid #fff;
+}
+
+.caja3 img{
+    padding: 3rem 0 1rem 3.5rem;
+}
+
+.caja3 h2{
+    font-family: 'Big Shoulders Display';
+    color: hsla(0, 0%, 100%, 0.75);
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    padding: .4rem 3.5rem;
+}
+
+.caja3 p{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 1rem 3.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.caja3 a{
+    background-color: #fff;
+    display: inline-block;
+    color: hsl(179, 100%, 13%);
+    margin-left: 3.5rem;
+    margin-bottom: 5rem;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+}
+
+.caja3 a:hover{
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+    border: .1rem solid #fff;
+}
+
+
+@media (max-width: 600px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .caja1{
+        border-radius: 1rem 1rem 0 0;
+    }
+
+    .caja3{
+        background-color: hsl(179, 100%, 13%);
+        border-radius: 0 0 1rem 1rem;
+    }
+    
+  }
